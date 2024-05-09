@@ -1,0 +1,655 @@
+*{
+   margin: 0px;
+   font-family: arial;
+}
+.header1{
+   height: 30px;
+   background-color: rgb(241, 238, 238);
+   display: flex;
+}
+.one{
+   width: 50%;
+   height: 30px;
+   display: flex;  
+   align-items: center;
+}
+.img1{
+   width: 15px;
+   height: 15px;
+   background-image: url(face1.png);
+   background-size: cover;
+   margin-left: 100px;
+   transition-property: all;
+   transition-duration: 0.5s;
+}
+.img1:hover{
+        width: 30px;
+        height: 30px;
+}
+.img2{
+   width: 15px;
+   height: 15px;
+   background-image: url(x..png);
+   background-size: cover;
+   margin-left: 5px;
+   transition-property: all;
+   transition-duration: 1s;
+}
+.img2:hover{
+   width: 30px;
+   height: 30px;
+}
+.img3{
+   width: 20px;
+   height: 20px;
+   background-image: url(insta1.png);
+   background-size: cover;
+   margin-left: 5px;
+   transition-property: all;
+   transition-duration: 1s;
+}
+.img3:hover{
+   width: 40px;
+   height: 40px;
+}
+.two{
+   width:50%;
+   height: 30px;
+   display: flex;  
+   align-items: center;
+}
+#skip{
+   height: 30px;
+   border: 0px;
+   border-right: 1px solid rgba(3, 3, 3, 0.247);
+   cursor: pointer;
+   margin-left: 100px ;
+}
+#skip:hover{
+  color: skyblue;
+}
+#sign{
+   height: 30px;
+   border: 0px;
+   border-right: 1px solid rgba(3, 3, 3, 0.247);
+   cursor: pointer;
+}
+#sign:hover{
+   color: skyblue;
+ }
+#regis{
+   height: 30px;
+   border: 0px;
+   border-right: 1px solid rgba(3, 3, 3, 0.247);
+   cursor: pointer;
+}
+#regis:hover{
+   color: skyblue;
+ }
+.two a{
+   margin-left: 10px;
+   font-size: 12px;
+   cursor: pointer;
+}
+.two a:hover{
+   color: skyblue;
+ }
+#mod1{
+   margin-left: 10px;
+   width: 30px;
+   background-color: white;
+   height: 30px;
+   border-radius: 0%;
+   border: 0px;
+   font-size: 15px;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+   color: black;
+   cursor: pointer;
+   transition-property: all;
+   transition-duration: 1s;
+}
+#mod1:hover{
+   color: skyblue;
+  
+ }
+#mod2{
+   
+   width: 30px;
+   background-color: rgb(0, 0, 0);
+   height: 30px;
+   border-radius: 0%;
+   border: 0px;
+   font-size: 15px;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+   transition-property: all;
+   transition-duration: 1s;
+
+}
+#mod2:hover{
+   color: skyblue;
+  
+
+ }
+#mod3{
+   width: 80px;
+   height: 30px;
+   border: 0px;
+   font-size: 15px;
+   background-color: orange;
+   color: white;
+   font-weight: 700;
+   cursor: pointer;
+}
+.header2{
+   height: 110px;
+   display: flex;
+   align-items: center;
+   background-image: linear-gradient(to top left,white,rgba(250, 230, 177, 0.561));
+}
+.img4{
+   width: 325px;
+   margin-left: 70px;
+   height: 100px;
+   background-image: url(logo_1.png);
+   background-size: cover; 
+}
+.twwo{
+   height: 100px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding-left: 250px;
+}
+.twwo button{
+   font-size: 30px;
+   color: white;
+   height: 60px;
+   width: 60px;
+   border-radius: 50%;
+   border: 0px;
+   background-color: rgba(161, 152, 152, 0.137);
+   margin-left: 50px;
+   cursor: pointer;
+   transition: all;
+   transition-duration: 1s;
+   border:1px solid rgba(0, 0, 0, 0.397);
+}
+#msg2{   
+   animation: loader-animation 5s infinite ease-in-out;
+   animation-delay: 0s;
+   animation-name: rotate;
+}
+#msg6{
+   display: none;
+}
+@keyframes rotate{ 
+   0% { 
+       transform: rotate(0deg); 
+   } 
+
+   100% { 
+       transform: rotate(360deg); 
+   } }
+.twwo button:hover{
+       height: 75px;
+       width: 75px;
+       color: rgb(253, 112, 77);
+       background-color: rgb(0, 195, 255);
+}
+.header3{
+   height:70px;
+   background-color: rgb(49, 49, 177);
+   
+   display: flex;
+   align-items: center;
+}
+.onee{
+      height:50px;
+      width: 550px;
+      background-color: rgba(255, 255, 255, 0.295);
+      margin-left: 100px;
+      display: flex;
+      align-items: center;
+}
+.det1{
+   height: 35px;
+   display: flex;
+   align-items: center;
+   margin-left: 5px;
+}
+.det1 input{
+   height: 35px;
+   width: 250px;
+   border: 0px;
+}
+.det1 button{
+   height: 37px;
+   width: 70px;
+   border: 0px;
+   background-color: rgb(255, 199, 95);
+   color: white;
+   font-size: 18px;
+   cursor: pointer;
+}
+.det1 button:hover{
+   background-color: rgb(218, 142, 3);
+}
+.det2{
+   margin-left: 50px;
+}
+.det2 select{
+     height: 37px;
+     border: 0px;
+     color: white;
+     background-color: rgba(255, 255, 255, 0);
+     font-size: 15px;
+}
+.det2 select:hover{
+   background-color: rgba(0, 0, 0, 0.322);
+}
+.twoo{
+   width: 600px;
+   display: flex;
+   align-items: center;
+}
+.twoo ul{
+   color: white;
+   font-size: 16px;
+   font-weight: 700;
+}
+.obj3 button{
+   background-color: rgba(255, 255, 255, 0);
+   color: white;
+   border: 0px;
+   margin-left: 50px;
+   cursor: pointer;
+}
+.obj4 button{
+   background-color: rgba(255, 255, 255, 0);
+   color: white;
+   border: 0px;
+   border-left: 1px solid rgb(255, 255, 255);
+   border-right: 1px solid rgb(255, 255, 255);
+   cursor: pointer;
+}
+.obj5 button{
+   background-color: rgba(255, 255, 255, 0);
+   color: white;
+   border:0px;
+   cursor: pointer;
+}
+.twoo button:hover{
+   color:rgb(180, 177, 177);
+}
+.center-panel{
+   height: 250px;
+}
+.banner{
+   height: 250px;
+   background-image: url(chaloindia.jpg);
+   background-size: cover;
+   cursor: pointer;
+}
+.details{
+   height:470px;
+}
+.oone{
+      height: 60px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+}
+.obj6{
+   width: 440px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 40px;
+   font-size: 20px;
+   font-family: sans-serif;
+   font-weight: 600;
+   border-bottom: 3px solid rgba(128, 128, 128, 0.274);
+   cursor: pointer;
+}
+.obj7{
+   width: 450px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 40px;
+   font-size: 20px;
+   font-family: sans-serif;
+   font-weight: 600;
+   border-bottom: 3px solid rgba(128, 128, 128, 0.301);
+   cursor: pointer;
+}
+.obj8{
+   width: 250px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 40px;
+   font-size: 20px;
+   font-family: sans-serif;
+   font-weight: 600;
+   border-bottom: 3px solid rgba(128, 128, 128, 0.397);
+   cursor: pointer;
+}
+.ttwo{
+   height: 250px;
+   border-top: 1px solid black;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.obj9{
+   display: block;
+   height: 220px;
+   width: 440px;
+}
+.sub1{
+   width: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 40px;
+   color: white;
+   background-color: rgba(39, 38, 38, 0.705);
+}
+.sub2{
+   font-size: 15px;
+   width: 440px;
+   display: flex;
+   align-items: center;
+   height: 260px;
+   border: 1px solid rgba(0, 0, 0, 0.322);
+   
+}
+.obj10{
+   display: block;
+   height: 220px;
+   width: 450px;
+}
+.sub3{
+   width: 450px;
+   display: flex;
+   align-items: center;
+   height: 40px;
+   color: white;
+   background-color: rgba(128, 128, 128, 0.541);
+}
+.sub4{
+   font-size: 15px;
+   width: 450px;
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   height: 250px;
+   border: 1px solid rgba(0, 0, 0, 0.322);
+}
+.obj11{
+   width: 250px;
+   height: 220px;
+   display: block;
+}
+.sub5{
+   display: flex;  
+   justify-content: center;
+   align-items: center;
+   height: 150px;
+   width: 250px;
+   border: 1px solid black;
+   font-size: 12px;
+
+}
+#ord1{
+   background-image: url(swep.jpg);
+   background-size: cover;
+   height:90px;
+   width:220px;
+}
+.sub6{
+   margin-top: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 150px;
+   width: 250px;
+   border: 1px solid black;
+
+}
+#ord2{
+   height: 100px;
+   width: 240px;
+   background-image: url(health_id.jpg);
+   background-size: cover;
+}
+.work1{
+   display: none;
+}
+.work2{
+   display: none;
+}
+.work3{
+   display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:700px){
+       
+   .one{
+      width: 30%;
+
+   }
+   .two{
+      width: 70%;
+   }
+   .img1{
+      margin-left: 20px;
+   }
+   #skip{
+      margin:0px;
+      width: 140px;
+      font-size: 12px;
+   }
+   #sign{
+      font-size: 12px;
+   }
+   #regis{
+      font-size: 12px;
+   }
+   #mod1{
+          display: none;
+       }
+       #mod2{
+          display: none;
+       }
+       .two a{
+          display: none;
+       }
+       .header2{
+          height: 70px;
+       }
+       .img4{
+            height: 60px;
+            width: 195px;
+            margin: 0%;
+            margin-left: 20px;
+       }
+       .twwo button{
+          display: none;
+
+       }
+       .twwo{
+          width: 500px;
+         padding: 0%;
+         height: 70px;
+       }
+       #msg6{
+          height: 40px;
+          width: 40px;
+          display: inline;
+          color: black;
+          background-color: rgba(255, 255, 255, 0); 
+          position: relative;
+          left: 10px;
+          border: 0px;
+       }
+       #msg6:hover{     
+          height: 50px;
+          width: 50px;
+          color: red;
+          background-color: rgb(233, 188, 188);
+       }
+       .header3{
+          display: flex;
+          height: 90px;
+          justify-content: center;
+          align-items: center;
+       }
+       .onee{
+          width: 335px;
+          margin: 0px;
+          
+       }
+      .twoo{
+         display: none;
+      }
+     .det2{
+        display: none;
+     }
+     .center-panel{
+        margin-top: 10px;
+        height: 80px;
+        border: 0px;
+     }
+     .banner{
+        height: 90px;
+        background-size: contain;
+     }
+     .oone{
+        display: none;
+     }
+     .ttwo{
+        display: block;
+        height: 950px;
+        
+     }
+     .details{
+        height: 950px;
+        margin-top: 20px;
+        border: 0px;
+     }
+     .work1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 700;
+        
+        border-bottom: 3px solid rgba(56, 55, 55, 0.397);
+        height: 50px;
+        margin-bottom: 10px;
+        
+     }
+     .work2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      font-weight: 700;
+      
+      border-bottom: 3px solid rgba(56, 55, 55, 0.397);
+      height: 50px;
+      margin-bottom: 10px;
+      
+   }
+   .work3{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      font-weight: 700;
+      
+      border-bottom: 3px solid rgba(56, 55, 55, 0.397);
+      height: 50px;
+      margin-bottom: 10px;
+      
+   }
+
+     .obj9{
+        margin-left: 20px;
+        height: 330px;
+        width: 350px;
+
+     }
+     .obj10{
+        width: 350px;
+     }
+     .obj11{
+        width: 350px;
+     }
+     .sub2{
+        font-size: 12PX;
+        width: 350px;
+     }
+     .sub3{
+           width: 350px;
+     }
+    .sub4{
+       width: 350px;
+       font-size: 12px;
+    }
+    .sub5{
+       width: 350px;
+    }
+    .sub6{
+       width: 350px;
+    }
+     .obj10{
+        height: 300px;
+        margin-left: 15px;
+     }
+     
+     .obj11{
+       margin-left: 23px;
+     }
+}
